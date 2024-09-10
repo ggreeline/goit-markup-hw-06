@@ -51,24 +51,24 @@ ul {
   font-style: normal;
 }
 
-.address-link-1:focus,
+.address-links:focus,
 .nav-links:focus {
   color: #404bbf;
 }
 
-.address-link-1 {
+.address-links {
   font-weight: 400;
   text-decoration: none;
   color: #434455;
   font-style: normal;
 }
 
-.address-link-1:hover,
+.address-links:hover,
 .nav-links:hover {
   color: #404bbf;
 }
 
-.h1-banner {
+.hone-banner {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -77,7 +77,7 @@ ul {
   letter-spacing: 0.02em;
 }
 
-.h2-text-2-section {
+.htwo-text-two-section {
   font-weight: 500;
   font-size: 20px;
   color: #2e2f42;
@@ -85,7 +85,7 @@ ul {
   line-height: 1.2;
 }
 
-.h2-text-1 {
+.htwo-text {
   font-weight: 700;
   font-size: 36px;
   color: #2e2f42;
@@ -95,7 +95,7 @@ ul {
   text-transform: capitalize;
 }
 
-.h3-text {
+.hthree-text {
   font-weight: 500;
   font-size: 20px;
   color: #2e2f42;
