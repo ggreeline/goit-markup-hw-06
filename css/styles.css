@@ -44,11 +44,6 @@ ul {
   color: #2e2f42;
 }
 
-.address-link:focus,
-.nav-links:focus {
-  color: #404bbf;
-}
-
 .address-link {
   font-weight: 400;
   text-decoration: none;
@@ -56,7 +51,19 @@ ul {
   font-style: normal;
 }
 
-.address-link:hover,
+.address-link-1:focus,
+.nav-links:focus {
+  color: #404bbf;
+}
+
+.address-link-1 {
+  font-weight: 400;
+  text-decoration: none;
+  color: #434455;
+  font-style: normal;
+}
+
+.address-link-1:hover,
 .nav-links:hover {
   color: #404bbf;
 }
