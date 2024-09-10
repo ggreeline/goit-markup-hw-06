@@ -44,6 +44,7 @@ ul {
   color: #2e2f42;
 }
 
+.address-link:focus,
 .nav-links:focus {
   color: #404bbf;
 }
@@ -69,11 +70,12 @@ ul {
   letter-spacing: 0.02em;
 }
 
-.h2-text {
-  font-weight: 700;
-  font-size: 36px;
+.h2-text-2-section {
+  font-weight: 500;
+  font-size: 20px;
   color: #2e2f42;
   letter-spacing: 0.02em;
+  line-height: 1.2;
 }
 
 .h2-text-1 {
