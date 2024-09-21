@@ -31,8 +31,8 @@ a {
 }
 
 .section-paddings {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 button {
@@ -333,9 +333,6 @@ nav {
 }
 
 .footer-section {
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
   background-color: #2e2f42;
   color: #f4f4fd;
   font-family: "Roboto", sans-serif;
@@ -353,6 +350,7 @@ nav {
   max-width: 264px;
   padding-top: 100px;
   padding-bottom: 100px;
+  padding-left: 0;
 }
 
 .logo-footer {
