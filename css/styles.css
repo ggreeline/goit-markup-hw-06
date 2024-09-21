@@ -334,7 +334,7 @@ nav {
 
 .footer-section {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: flex-start;
   background-color: #2e2f42;
   color: #f4f4fd;
