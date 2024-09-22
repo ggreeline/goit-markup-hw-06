@@ -116,7 +116,6 @@ nav {
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 76px;
   padding: 24px 0;
 }
 
