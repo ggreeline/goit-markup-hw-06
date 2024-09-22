@@ -116,7 +116,6 @@ nav {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 24px 0;
 }
 
 .nav-links {
@@ -124,6 +123,7 @@ nav {
   text-decoration: none;
   color: #2e2f42;
   padding: 24px 0;
+  display: block;
 }
 
 .nav-links-list {
@@ -140,11 +140,10 @@ nav {
   gap: 40px;
   align-items: center;
   justify-content: flex-end;
+  padding: 24px 0;
 }
 
 .address-link {
-  box-sizing: border-box;
-  display: flex;
   font-weight: 400;
   text-decoration: none;
   color: #434455;
@@ -190,15 +189,6 @@ nav {
   max-width: 496px;
 }
 
-.traits-container {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  gap: 24px;
-  align-items: center;
-  max-width: 1128px;
-}
-
 .trait-ul {
   display: flex;
   flex-direction: row;
@@ -206,10 +196,6 @@ nav {
 }
 
 .trait-card {
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
   width: calc((100% - 72px) / 4);
 }
 
@@ -294,11 +280,6 @@ nav {
   background-color: #404bbf;
 }
 
-.team-container {
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
-
 .team {
   background-color: #f4f4fd;
 }
@@ -311,11 +292,7 @@ nav {
 }
 
 .team-card {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 264px;
-  height: 380px;
+  width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
   background-color: #fff;
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
@@ -323,9 +300,6 @@ nav {
 }
 
 .team-card-name {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   padding: 32px 0;
 }
 
@@ -334,17 +308,11 @@ nav {
 }
 
 .port-card {
-  display: flex;
-  flex-direction: column;
-  gap: 0;
-  width: 360px;
-  height: 420px;
+  width: calc((100% - 48px) / 3);
   background-color: #fff;
 }
 
 .port-card-name {
-  display: flex;
-  flex-direction: column;
   border-bottom: 1px solid #e7e9fc;
   border-left: 1px solid #e7e9fc;
   border-right: 1px solid #e7e9fc;
@@ -383,7 +351,6 @@ nav {
   text-transform: uppercase;
   text-decoration: none;
   color: #4d5ae5;
-  margin-right: 76px;
   margin-bottom: 16px;
 }
 
