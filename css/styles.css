@@ -81,9 +81,9 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding: 0 15px;
   column-gap: 76px;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 header {
@@ -105,6 +105,7 @@ header {
   text-transform: uppercase;
   text-decoration: none;
   color: #4d5ae5;
+  margin-right: 76px;
 }
 
 .logo-web {
@@ -116,6 +117,7 @@ nav {
   flex-direction: row;
   align-items: center;
   gap: 76px;
+  padding: 24px 0;
 }
 
 .nav-links {
@@ -171,10 +173,7 @@ nav {
   flex-direction: column;
   gap: 48px;
   align-items: center;
-  padding-top: 188px;
-  padding-bottom: 188px;
-  padding-left: auto;
-  padding-right: auto;
+  padding: 188px 0;
 }
 
 .button:hover,
@@ -189,11 +188,12 @@ nav {
   color: #fff;
   text-align: center;
   letter-spacing: 0.02em;
-  width: 496px;
+  max-width: 496px;
 }
 
 .traits-container {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   gap: 24px;
   align-items: center;
@@ -211,7 +211,7 @@ nav {
   display: flex;
   flex-direction: column;
   gap: 8px;
-  max-width: 264px;
+  width: calc((100% - 72px) / 4);
 }
 
 .htwo-text-two-section {
@@ -226,7 +226,7 @@ nav {
   margin: -1px;
   border: 0;
   padding: 0;
-
+  margin-bottom: 8px;
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
@@ -249,6 +249,16 @@ nav {
   font-size: 20px;
   color: #2e2f42;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
+}
+
+.hthree-text-team {
+  font-weight: 500;
+  font-size: 20px;
+  color: #2e2f42;
+  letter-spacing: 0.02em;
+  text-align: center;
+  margin-bottom: 8px;
 }
 
 .banner {
@@ -289,10 +299,10 @@ nav {
 .team-card {
   display: flex;
   flex-direction: column;
-  gap: 32px;
   align-items: center;
   width: 264px;
   height: 380px;
+  border-radius: 0px 0px 4px 4px;
   background-color: #fff;
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(152, 155, 213, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
@@ -301,8 +311,12 @@ nav {
 .team-card-name {
   display: flex;
   flex-direction: column;
-  gap: 8px;
   align-items: center;
+  padding: 32px 0;
+}
+
+.paragraph-team {
+  text-align: center;
 }
 
 .port-card {
@@ -317,7 +331,6 @@ nav {
 .port-card-name {
   display: flex;
   flex-direction: column;
-  gap: 8px;
   border-bottom: 1px solid #e7e9fc;
   border-left: 1px solid #e7e9fc;
   border-right: 1px solid #e7e9fc;
@@ -330,6 +343,7 @@ nav {
   flex-direction: row;
   align-items: center;
   gap: 24px;
+  row-gap: 48px;
 }
 
 .footer-section {
@@ -342,18 +356,30 @@ nav {
   letter-spacing: 0.02em;
 }
 
-.text-footer {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-  align-items: flex-start;
-  max-width: 264px;
-
-  padding-top: 100px;
-  padding-bottom: 100px;
+.page-footer-container {
   padding-left: 0;
+  padding: 100px 0;
+}
+
+.logo-main-footer {
+  display: inline-block;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 117%;
+  font-style: normal;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #4d5ae5;
+  margin-right: 76px;
+  margin-bottom: 16px;
 }
 
 .logo-footer {
   color: #f4f4fd;
+}
+
+.paragraph-footer {
+  max-width: 264px;
 }
