@@ -403,8 +403,9 @@ nav {
 }
 
 .team-social-list {
-  justify-content: space-between;
-  padding: 8px 16px 0 16px;
+  justify-content: center;
+  gap: 24px;
+  padding: 8px 0 0 0;
 }
 
 .paragraph-team {
@@ -461,6 +462,11 @@ nav {
 .port-card:focus .card-overlay {
   opacity: 1;
   transform: translateY(0);
+}
+
+.port-card:hover .port-card-name,
+.port-card:focus .port-card-name {
+  transform: translateY(0%);
 }
 
 .overlay-text {
