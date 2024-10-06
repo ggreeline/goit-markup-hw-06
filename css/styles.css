@@ -670,7 +670,7 @@ nav {
   margin: auto;
   width: 100%;
   width: 408px;
-  height: 584px;
+  min-height: 584px;
   border-radius: 4px;
   padding: 72px 24px 24px;
   background-color: #fcfcfc;
@@ -842,7 +842,7 @@ nav {
   line-height: 1.17;
   letter-spacing: 0.04em;
 
-  color: #757575;
+  color: #8e8f99;
 }
 
 .policy-link {
