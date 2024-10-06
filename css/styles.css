@@ -605,7 +605,7 @@ nav {
 }
 
 .subscribe-btn {
-  min-width: 169px;
+  min-width: 165px;
   height: 40px;
   display: flex;
   justify-content: center;
@@ -870,7 +870,7 @@ nav {
 .btn-send-form {
   display: block;
   margin: 0 auto;
-  min-width: 165px;
+  min-width: 169px;
   height: 56px;
   padding: 16px 32px;
   font-family: "Roboto", sans-serif;
