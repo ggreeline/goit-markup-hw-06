@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="description" content="WebStudio" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css"
@@ -51,6 +52,92 @@
             </li>
           </ul>
         </address>
+        <button
+          class="burger-menu"
+          type="button"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+          data-open-menu
+        >
+          <svg class="burger-icon" width="32" height="32">
+            <use href="./images/icons.svg#icon-burgermenu"></use>
+          </svg>
+        </button>
+      </div>
+
+      <!-- Mobile menu -->
+      <div class="mobile-menu" id="mobile-menu" data-menu>
+        <div class="mobile-menu-container container">
+          <button class="btn-close-modal" data-close-menu>
+            <svg width="8" height="8">
+              <use href="./images/icons.svg#icon-closeblack"></use>
+            </svg>
+          </button>
+          <nav class="mobile-nav">
+            <ul class="mobile-nav-list">
+              <li class="mobile-nav-item">
+                <a class="mobile-nav-link current" href="./index.html"
+                  >Studio</a
+                >
+              </li>
+              <li class="mobile-nav-item">
+                <a class="mobile-nav-link" href="">Portfolio</a>
+              </li>
+              <li class="mobile-nav-item">
+                <a class="mobile-nav-link" href="">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+
+          <address class="mobile-address">
+            <ul class="mobile-address-list">
+              <li class="mobile-address-item">
+                <a class="mobile-tel-link" href="tel:+110001111111"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+              <li class="mobile-address-item">
+                <a class="mobile-email-link" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+            </ul>
+          </address>
+
+          <ul class="social-list mobile-social-list">
+            <li class="social-item">
+              <a href="" class="social-link">
+                <svg class="social-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a href="" class="social-link">
+                <svg class="social-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a href="" class="social-link">
+                <svg class="social-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a href="" class="social-link">
+                <svg class="social-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </header>
     <main>
@@ -118,7 +205,7 @@
         </div>
       </section>
       <section class="team section-paddings">
-        <div class="container">
+        <div class="container container-secondary">
           <h2 class="htwo-text">Our Team</h2>
           <ul class="team-list">
             <li class="team-card">
@@ -421,7 +508,7 @@
       </section>
     </main>
     <footer class="footer-section">
-      <div class="container page-footer-container">
+      <div class="container page-footer-container container-secondary">
         <div class="footer-first-part">
           <a class="logo-main-footer" href="./index.html">
             Web<span class="logo-footer">Studio</span></a
