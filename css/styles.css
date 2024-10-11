@@ -656,7 +656,7 @@ nav {
   margin-bottom: 72px;
 }
 
-.hthree-text {
+.hthree-text-traits {
   margin-bottom: 8px;
   font-weight: 700;
   font-size: 36px;
@@ -713,7 +713,7 @@ nav {
     background: #f4f4fd;
   }
 
-  .hthree-text {
+  .hthree-text-traits {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -857,6 +857,13 @@ nav {
 .port-card:hover .port-card-name,
 .port-card:focus .port-card-name {
   transform: translateY(0%);
+}
+
+.hthree-text {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: left;
 }
 
 .overlay-text {
