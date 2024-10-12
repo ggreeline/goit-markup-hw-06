@@ -25,16 +25,16 @@ a {
 }
 
 .container {
-  max-width: 288px;
-  padding-left: 15px;
-  padding-right: 15px;
+  max-width: 320px;
+  padding-left: 16px;
+  padding-right: 16px;
   margin-left: auto;
   margin-right: auto;
 }
 
 .section-paddings {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 
 button {
@@ -100,7 +100,7 @@ body {
 
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 766px;
+    max-width: 768px;
   }
 
   @media not screen and (min-width: 1158px) {
@@ -119,6 +119,13 @@ body {
 
   .container {
     max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .section-paddings {
+    padding-top: 120px;
+    padding-bottom: 120px;
   }
 }
 
@@ -229,7 +236,6 @@ nav {
 .banner-container {
   display: flex;
   flex-direction: column;
-  gap: 48px;
   align-items: center;
 }
 
@@ -389,7 +395,8 @@ nav {
     flex-direction: column;
     max-width: 394px;
     height: 100%;
-    padding-top: 80px;
+    padding-top: 72px;
+    padding-bottom: 40px;
   }
 
   .mobile-nav {
@@ -417,20 +424,21 @@ nav {
 
   .mobile-address {
     margin-bottom: 40px;
+    font-style: normal;
+    font-size: 20px;
   }
 
   .mobile-address-item:not(:last-child) {
-    margin-bottom: 40px;
+    margin-bottom: 24px;
+    font-size: 20px;
   }
 
   .mobile-tel-link {
     color: #4d5ae5;
   }
 
-  @media screen and (max-width: 390px) {
-    .mobile-tel-link {
-      font-size: 24px;
-    }
+  .mobile-tel-link {
+    font-size: 20px;
   }
 
   .mobile-email-link {
@@ -443,7 +451,6 @@ nav {
 
   .mobile-social-list {
     max-width: 328px;
-    padding-bottom: 40px;
     justify-content: space-between;
   }
 }
@@ -458,12 +465,12 @@ nav {
 
 .hone-banner {
   font-weight: 700;
-  font-size: 56px;
+  font-size: 36px;
   line-height: 1.07;
   color: #fff;
   text-align: center;
   letter-spacing: 0.02em;
-  max-width: 320px;
+  max-width: 216px;
   margin: 0 auto 72px;
 }
 
@@ -476,9 +483,10 @@ nav {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  padding: 112px 0;
+  padding: 72px 0;
   margin-left: auto;
   margin-right: auto;
+  max-width: 320px;
 }
 
 @media screen and (min-device-pixel-ratio: 2),
@@ -532,6 +540,7 @@ nav {
         rgba(46, 47, 66, 0.7)
       ),
       url(../images/hero-tablet.jpg);
+    max-width: 768px;
   }
 
   @media screen and (min-device-pixel-ratio: 2),
@@ -566,9 +575,9 @@ nav {
 
   .hone-banner {
     max-width: 496px;
-    margin-bottom: 40px;
     font-size: 56px;
     line-height: 1.07;
+    margin-bottom: 36px;
   }
 }
 
@@ -663,6 +672,7 @@ nav {
   line-height: 1.11;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  text-align: center;
 }
 
 @media not screen and (min-width: 768px) {
@@ -686,6 +696,10 @@ nav {
 
   .trait-card {
     width: calc((100% - 24px) / 2);
+  }
+
+  .hthree-text-traits {
+    text-align: left;
   }
 }
 
@@ -717,6 +731,7 @@ nav {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    text-align: left;
   }
 }
 
@@ -749,7 +764,7 @@ nav {
 
 .social-list {
   display: flex;
-  padding-top: 8px;
+  margin-top: 8px;
 }
 
 .social-item {
@@ -884,12 +899,6 @@ nav {
   color: #f4f4fd;
 }
 
-@media not screen and (min-width: 768px) {
-  .port-card:not(:last-child) {
-    margin-bottom: 48px;
-  }
-}
-
 /* portfolio tablet */
 
 @media screen and (min-width: 768px) {
@@ -966,6 +975,7 @@ nav {
 .footer-social-list {
   gap: 16px;
   justify-content: center;
+  margin-top: 0;
 }
 
 .footer-social-link {
@@ -993,8 +1003,7 @@ nav {
   display: flex;
   flex-wrap: wrap;
   align-items: baseline;
-  justify-content: flex-start;
-  row-gap: 72px;
+  justify-content: center;
 }
 
 .subscribe-title {
@@ -1010,7 +1019,7 @@ nav {
 .subscribe-wrapper {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
 }
 
 .subscribe-form {
@@ -1021,7 +1030,7 @@ nav {
 }
 
 .subscribe-input {
-  width: 264px;
+  width: 268px;
   height: 40px;
   padding-left: 16px;
   border: 1px solid #ffffff;
@@ -1114,6 +1123,7 @@ nav {
     display: flex;
     flex-wrap: wrap;
     align-items: baseline;
+    justify-content: flex-start;
     row-gap: 72px;
   }
 
